@@ -1,5 +1,5 @@
-baseURL = "http://example.org"
-title = "Hugo Zdoc Theme"
+baseURL = ""
+title = "cytogallery"
 theme = "hugo-theme-zdoc"
 
 defaultContentLanguage = "en"
