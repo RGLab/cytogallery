@@ -55,4 +55,8 @@
     <loc>/gallery/cytoqc/bcell/</loc>
   </url>
   
+  <url>
+    <loc>/gallery/opencyto/neg_control/</loc>
+  </url>
+  
 </urlset>
