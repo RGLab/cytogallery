@@ -33,6 +33,15 @@
       </item>
       
       <item>
+        <title>cytoqc -- DC panel</title>
+        <link>/gallery/cytoqc/dc/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/gallery/cytoqc/dc/</guid>
+        <description>QC for DC panel library(flowCore) library(flowWorkspace) library(cytoqc) # devtools::load_all() path &amp;lt;- &amp;quot;~/remote/fh/fast/gottardo_r/mike_working/lyoplate_out/parsed&amp;quot; centers &amp;lt;- c(&amp;#39;BIIR&amp;#39;,&amp;#39;CIMR&amp;#39;,&amp;#39;Miami&amp;#39;,&amp;#39;NHLBI&amp;#39;,&amp;#39;Stanford&amp;#39;,&amp;#39;UCLA&amp;#39;,&amp;#39;Yale&amp;#39;) Load gs panel &amp;lt;- &amp;quot;DC&amp;quot; gslist &amp;lt;- sapply(centers, function(center) { message(&amp;quot;Center: &amp;quot;, center) gs &amp;lt;- load_gs(file.path(path, center, panel), select = 1) })  Check marker cqc_data &amp;lt;- cqc_gs_list(gslist) check_res &amp;lt;- cqc_check(cqc_data, &amp;quot;marker&amp;quot;) check_res   group_id  nGatingSet  marker      1  1  CD11c PE-Cy7, CD123 PerCP-Cy55, CD14 V450, CD16 APC, CD56 PE, HLA-DR V500, Lineage APC-H7, Live Dead FITC    2  1  CD11c, CD123, CD14, CD16, CD3_CD19_CD20, CD56, HLADR, LIVE_GREEN    3  1  CD11C, CD123, CD14, CD16, CD3+19+20, CD56, HLA-DR, LIVE DEAD    4  1  CD11c, CD123, CD14, CD16, CD3+CD19+CD20+, CD56, HLA-DR, Live Green    5  1  CD11c, CD123, CD14, CD16, CD3+CD19+CD20, CD56, HLA DR, Live/Dead    6  1  CD11c, CD123, CD14, CD16, CD3+CD19+CD20, CD56, HLA-DR, Live Green    7  1  CD11c, CD123, CD14, CD16, CD3CD19CD20, CD56, HLA-DR, LIVE      Match reference match_res &amp;lt;- cqc_match(check_res, ref = 7) match_res  {&#34;</description>
+      </item>
+      
+      <item>
         <title>negative control based gating</title>
         <link>/gallery/opencyto/neg_control/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
