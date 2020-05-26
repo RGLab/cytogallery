@@ -1,0 +1,5 @@
+[[main]]
+  identifier = "Gallery"
+  name = "Gallery"
+  url = "gallery"
+  weight = 1

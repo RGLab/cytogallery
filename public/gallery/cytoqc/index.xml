@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cytoqc on ZDoc</title>
+    <link>/gallery/cytoqc/</link>
+    <description>Recent content in cytoqc on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:34:39 +0900</lastBuildDate>
+    
+        <atom:link href="/gallery/cytoqc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>cytoqc -- bcell</title>
+        <link>/gallery/cytoqc/bcell/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/gallery/cytoqc/bcell/</guid>
+        <description>library(flowCore) library(flowWorkspace) library(cytoqc) path &amp;lt;- &amp;quot;~/remote/fh/fast/gottardo_r/mike_working/lyoplate_out/parsed&amp;quot; centers &amp;lt;- c(&amp;#39;BIIR&amp;#39;,&amp;#39;CIMR&amp;#39;,&amp;#39;Miami&amp;#39;,&amp;#39;NHLBI&amp;#39;,&amp;#39;Stanford&amp;#39;,&amp;#39;UCLA&amp;#39;,&amp;#39;Yale&amp;#39;) Load gs panel &amp;lt;- &amp;quot;bcell&amp;quot; gslist &amp;lt;- sapply(centers, function(center) { message(&amp;quot;Center: &amp;quot;, center) gs &amp;lt;- load_gs(file.path(path, center, panel)) })  QC Check gates cqc_data &amp;lt;- cqc_gs_list(gslist) #group by gates groups &amp;lt;- cqc_check(cqc_data, &amp;quot;gate&amp;quot;) groups   group_id  nGatingSet  gate      2  6  24hi 38hi, 27- IgD-, 27- IgD+, 27+ IgD-, 27+ IgD+, 27hi 38hi, CD19, CD19 AND CD20, CD19 AND NOT CD20, CD20, CD3, LYM, not dead, root, singlets    1  1  24hi 38hi, 27- IgD-, 27- IgD+, 27+ IgD-, 27+ IgD+, 27hi 38hi, CD19, CD19 AND CD20, CD19 AND NOT CD20, CD20, CD3, LYM, not dead, root     #vis the difference plot_diff(groups) # match reference match_result &amp;lt;- cqc_match(groups, ref = 1, select = c(2)) match_result  {&#34;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
