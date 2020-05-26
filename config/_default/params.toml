@@ -1,5 +1,5 @@
 logo = false
-logoText = "cytoverse"
+logoText = ""
 logoType = "short" # long, short
 description = "cytoverse example site."
 
