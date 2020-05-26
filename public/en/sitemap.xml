@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/gallery/cytoml/</loc>
+    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/gallery/cytoqc/</loc>
+    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/flowworkspace/</loc>
+    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/ggcyto/</loc>
+    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/opencyto/</loc>
     <lastmod>2020-01-28T00:34:39+09:00</lastmod>
   </url>
   
@@ -25,6 +45,10 @@
   <url>
     <loc>/gallery/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/cytoml/cytobankexperiment/</loc>
   </url>
   
   <url>
